@@ -2,10 +2,14 @@
   "name": "spkg",
   "version": "1.0.0",
   "description": "# v 0.1.0",
-  "main": "index.js",
+  "main": "spkg.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.0.0"
+  },
+  "devDependencies": {}
 }
